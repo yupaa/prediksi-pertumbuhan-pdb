@@ -968,7 +968,7 @@ elif halaman == "Visualisasi":
             f"Pertumbuhan PDB Sektor {sektor_pilihan}"
         )
 
-        fig = go.figure()
+        fig = go.Figure()
         
         # Tracker
         fig.add_trace(
